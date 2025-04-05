@@ -1,0 +1,26 @@
+Personalized Podcast Summarizer & Recommender
+Team Members: Authencia Tioanda & Vaidehi Patil
+
+Goal
+To create a tool that helps podcast enthusiasts discover relevant content more efficiently by automatically transcribing, summarizing, and recommending podcast episodes based on user interests and listening history. This saves users time by allowing them to quickly assess episode content without listening to entire episodes and discover new podcasts aligned with their interests.
+
+Scope
+Our project will:
+1. Transcribe 50-100 episodes from 10 popular podcasts across different genres
+2. Generate concise summaries (150-250 words) for each episode
+3. Extract key topics and themes from episodes
+4. Implement a recommendation system based on content similarity
+5. Create a web interface for users to browse summaries and receive recommendations
+
+Data Sources & Approaches
+Data Sources:
+● RSS feeds from popular podcast networks (e.g., NPR, Gimlet, iHeartRadio)
+● Podcast Index API for metadata
+● Manual collection of 10-15 episodes per genre for training and testing
+
+Technical Approaches:
+● Transcription: Custom implementation of a phoneme-based ASR system with attention mechanisms
+● Summarization: Fine-tuned T5 model on podcast content with custom training loop
+● Topic Modeling: BERTopic with custom distance metrics for podcast domain
+● Recommendation System: Hybrid approach using content-based filtering and collaborative filtering techniques
+● Frontend: Flask-based web application with simple search and browsing capabilities
