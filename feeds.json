@@ -1,0 +1,26 @@
+{
+    "feeds": [
+        "https://feeds.npr.org/510289/podcast.xml",
+        "https://feeds.megaphone.fm/stuffyoushouldknow",
+        "https://feeds.simplecast.com/54nAGcIl",
+        "https://feeds.megaphone.fm/darknetdiaries",
+        "https://feeds.publicradio.org/public_feeds/this-american-life/rss/rss",
+        "https://feeds.megaphone.fm/sciencevs",
+        "https://feeds.megaphone.fm/replyall",
+        "https://feeds.simplecast.com/wjQvYtdl",
+        "https://rss.art19.com/freakonomics-radio",
+        "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/e5f21060-01c3-4ae8-ace0-ae32006cd37e/0d5b91e2-c460-45ef-9014-ae32006cd37f/podcast.rss"
+    ],
+    "podcast_names": [
+        "Planet Money",
+        "Stuff You Should Know",
+        "Code Switch",
+        "Darknet Diaries",
+        "This American Life",
+        "Science Vs",
+        "Reply All",
+        "99% Invisible",
+        "Freakonomics Radio",
+        "TED Talks Daily"
+    ]
+} 

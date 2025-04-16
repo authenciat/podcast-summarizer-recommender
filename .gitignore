@@ -172,3 +172,34 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Project specific ignores
+# Podcast data files
+data/raw/
+data/metadata/
+data/transcriptions/
+data/summaries/
+data/temp/
+
+# Model checkpoints
+models/transcription/
+models/summarization/
+models/topic/
+
+# Application logs
+*.log
+podcast_collection.log
+web_app.log
+project.log
+
+# Keep the data directories but ignore their contents
+!data/raw/.gitkeep
+!data/metadata/.gitkeep
+!data/transcriptions/.gitkeep
+!data/summaries/.gitkeep
+!data/temp/.gitkeep
+
+# Keep the model directories but ignore their contents
+!models/transcription/.gitkeep
+!models/summarization/.gitkeep
+!models/topic/.gitkeep
